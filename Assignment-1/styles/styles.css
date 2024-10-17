@@ -19,7 +19,11 @@
                    }
                    
                    .common-paragraph {
-                       text-align: center
+                       text-align: center;
+                       color: rgb(13, 19, 33);
+                       font-size: 16px;
+                       font-weight: 400;
+                       line-height: 26px;
                    }
                    
                    .name {
@@ -152,8 +156,29 @@
                    
                    .common-heading {
                        color: rgba(13, 19, 33, 0.7);
-                       font-size: 24px;
+                       font-size: 20px;
                        font-weight: 700;
                        line-height: 36px;
                        text-align: left;
+                   }
+                   /* My inspiration section */
+                   
+                   .inspiration-container {
+                       gap: 20px;
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: center;
+                       align-items: center;
+                       text-align: center;
+                   }
+                   
+                   #margin-padding {
+                       margin: px;
+                       padding:
+                   }
+                   
+                   .embeded-video {
+                       width: 1020px;
+                       height: 520px;
+                       border-radius: 16px;
                    }
